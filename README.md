@@ -1,4 +1,4 @@
-# Hi, I'm Pedro Câmara 👋
+# Pedro Câmara
 
 AI Engineer focused on **LLM applications, agents and RAG**.
 
