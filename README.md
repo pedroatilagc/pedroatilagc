@@ -14,6 +14,9 @@ WhatsApp campaign automation SaaS with an LLM-powered classifier that triages co
 **[senderix-eval](https://github.com/pedroatilagc/senderix-eval)**
 CI for LLM quality: golden dataset, multi-dimensional scoring (accuracy, format compliance, summary quality, latency and cost), LLM-as-a-judge, regression and drift detection, Discord alerts and automatic merge blocking on GitHub Actions. Used to benchmark four models and pick the production one on accuracy, latency and cost.
 
+**[rag-customer-support](https://github.com/pedroatilagc/rag-customer-support)**
+Retrieval-Augmented Generation pipeline for customer support, built with LangChain, Chroma and OpenAI over Wix's public knowledge base (WixQA): chunking, embeddings and vector indexing, semantic retrieval and context-grounded answer generation.
+
 ---
 
 ## 🛠️ Tech Stack
@@ -30,6 +33,9 @@ CI for LLM quality: golden dataset, multi-dimensional scoring (accuracy, format 
 ![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=for-the-badge&logo=anthropic&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
 ![OpenRouter](https://img.shields.io/badge/OpenRouter-6566F1?style=for-the-badge&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Chroma](https://img.shields.io/badge/Chroma-FF6446?style=for-the-badge&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
 
 ### Backend & Frontend
@@ -67,7 +73,7 @@ Prompt engineering and versioning, structured outputs with Pydantic, multi-provi
 Golden datasets, holdout sets, LLM-as-a-judge with rubrics, regression detection, drift monitoring, and model benchmarking on accuracy, latency and cost.
 
 **Agents & RAG:**
-Currently building agent orchestration and retrieval pipelines, with a focus on reliability and measurable quality.
+RAG pipelines with LangChain and Chroma (chunking, embeddings, vector search and grounded generation). Currently building agent orchestration, with a focus on reliability and measurable quality.
 
 **Backend:**
 REST APIs with FastAPI and Django REST Framework, webhooks, state machines for conversational automation, and third-party integrations.
